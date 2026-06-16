@@ -1,0 +1,5 @@
+# float is 32bit(4byte) and double is 64bit(8byte)
+# Conversion from double to String (String.valueOf(d)); 
+# Conversion from String to double (Integer.parseInt(s));
+# Random r = new Random(); for generating new random number
+# int num = random.nextInt(100) + 1;  this generates number from 1 to 100 if not +1 then 0 to 99
