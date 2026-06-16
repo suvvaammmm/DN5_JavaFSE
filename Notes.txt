@@ -3,3 +3,7 @@
 # Conversion from String to double (Integer.parseInt(s));
 # Random r = new Random(); for generating new random number
 # int num = random.nextInt(100) + 1;  this generates number from 1 to 100 if not +1 then 0 to 99
+# long is 64 bit used for whole number , it requires 'L' at the end such as long a = 50000000L;
+# method overloading means function same but inside parameter different
+# StringBuilder used to manipulate the string , String sc = sc.nextLine(); String Builder = new StringBuilder(str);
+# String Reverse in loop we have an empty string rev = ""; then for(int i=str.length()-1;i>=0;i--){ rev += str.charAt(i); }
