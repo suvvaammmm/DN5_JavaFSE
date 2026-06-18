@@ -5,5 +5,25 @@
 # int num = random.nextInt(100) + 1;  this generates number from 1 to 100 if not +1 then 0 to 99
 # long is 64 bit used for whole number , it requires 'L' at the end such as long a = 50000000L;
 # method overloading means function same but inside parameter different
+# method overriding = same method name and same parameter name.
+# inheritance (extends) means parent and child relationship 
 # StringBuilder used to manipulate the string , String sc = sc.nextLine(); String Builder = new StringBuilder(str);
 # String Reverse in loop we have an empty string rev = ""; then for(int i=str.length()-1;i>=0;i--){ rev += str.charAt(i); }
+# str = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase(); // removes all the punctuation 
+# public : accessible for all the public thing
+# private : visible only inside the same class
+# abstract : incomplete
+# protected : same class in same folder
+
+Interface
+# interface tells class what to do not how to , it is 100% abstract blueprint.(implements)
+# if interface Play(){} , then no new interface(); this is wrong
+
+Try - Catch
+# arithmeticException e : 10/0;
+# ArrayIndexOutOFBoundsException
+# NumberFormatException : int n = Integer.parseInt("abc") , catch(){sout("invalid No.")}
+# NullPointerException : String n = null, catch(){sout("String is null")}
+# InputMismatchException : int n=sc.nextInt(); catch(){sout("Invalid Input")}
+# Exception(generic) : catch{sout("something wrong")}
+# we can catch multiple exception with a single try
