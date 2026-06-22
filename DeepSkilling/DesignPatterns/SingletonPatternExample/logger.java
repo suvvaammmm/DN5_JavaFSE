@@ -1,5 +1,3 @@
-
-
 public class logger {
     private static logger instance;
     private logger(){
