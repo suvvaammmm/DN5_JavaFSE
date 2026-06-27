@@ -14,10 +14,13 @@
 # private : visible only inside the same class
 # abstract : incomplete
 # protected : same class in same folder
+# static modifier used for all class , here no object is required to create
+# instances are unique to each variables
 
 Interface
 # interface tells class what to do not how to , it is 100% abstract blueprint.(implements)
 # if interface Play(){} , then no new interface(); this is wrong
+# An interface in Java is a blueprint of a class. It is a collection of abstract methods (methods without a body) and constant variables.
 
 Try - Catch
 # arithmeticException e : 10/0;
