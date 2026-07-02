@@ -1,12 +1,22 @@
-public class MyService {
+import static org.mockito.Mockito.when;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    private ExternalApi api;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-    public MyService(ExternalApi api) {
-        this.api = api;
-    }
+public class MyServiceTest {
 
-    public String fetchData() {
-        return api.getData();
+    @Test
+    public void testExternalApi() {
+
+        ExternalApi mockApi = Mockito.mock(ExternalApi.class);
+
+        when(mockApi.getData()).thenReturn("Mock Data");
+
+        MyService service = new MyService(mockApi);
+
+        String result = service.fetchData();
+
+        assertEquals("Mock Data", result);
     }
 }
